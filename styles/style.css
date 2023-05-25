@@ -61,3 +61,26 @@ footer li {
   list-style-type: none;
   color: #6c727c;
 }
+
+/* Single Product */
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  outline: inherit;
+  margin: 0 10px;
+}
+
+.button-border {
+  border: 1px solid green;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.input-quantity {
+  border: none;
+}
