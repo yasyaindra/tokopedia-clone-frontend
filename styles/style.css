@@ -84,3 +84,9 @@ button {
 .input-quantity {
   border: none;
 }
+
+/* Address Tab */
+
+.address-active {
+  background-color: #c9fde0;
+}
