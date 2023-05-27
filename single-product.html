@@ -65,10 +65,22 @@
     <!-- End Navbar -->
     <!-- Start Single Product -->
     <div class="container mt-5">
-      <span class="" style="font-size: 15px; color: green"
-        >Home / Category / </span
-      ><span style="font-size: 15px; color: black"> Product</span>
-      <div class="row justify-content-between mt-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#" class="text-decoration-none" style="color: green"
+              >Home</a
+            >
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#" class="text-decoration-none" style="color: green"
+              >Library</a
+            >
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+      <div class="row mt-3 justify-content-between">
         <div class="col-lg-3">
           <figure class="figure">
             <img
@@ -87,7 +99,7 @@
           <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <button
-                class="nav-link active"
+                class="nav-link fw-bold active"
                 id="nav-home-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-home"
@@ -99,7 +111,7 @@
                 Detail
               </button>
               <button
-                class="nav-link"
+                class="nav-link fw-bold"
                 id="nav-profile-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-profile"
@@ -204,19 +216,24 @@
                     >Beli Langsung</a
                   >
                 </div>
-                <div
-                  class="row d-lg-flex flex-row justify-content-between d-none"
-                >
-                  <div class="col-lg-4 col-sm">
-                    <span class="fw-bold" style="font-size: 14px">Chat</span>
-                  </div>
-                  <div class="col-lg-4 col-sm">
-                    <span class="fw-bold" style="font-size: 14px"
-                      >Wishlist</span
+                <div class="row justify-content-evenly">
+                  <div class="col-lg-4 col-4">
+                    <span class="fw-bold" style="font-size: 12px">
+                      <i class="fa-solid fa-inbox"></i>
+                      Chat</span
                     >
                   </div>
-                  <div class="col-lg-4 col-sm">
-                    <span class="fw-bold" style="font-size: 14px">Share</span>
+                  <div class="col-lg-4 col-4">
+                    <span class="fw-bold" style="font-size: 12px">
+                      <i class="fa-solid fa-heart"></i>
+                      Wishlist</span
+                    >
+                  </div>
+                  <div class="col-lg-4 col-4">
+                    <span class="fw-bold" style="font-size: 12px">
+                      <i class="fa-solid fa-share"></i>
+                      Share</span
+                    >
                   </div>
                 </div>
               </div>
@@ -386,6 +403,10 @@
       </div>
     </footer>
     <!-- End Footer -->
+    <script
+      src="https://kit.fontawesome.com/4c03683015.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
